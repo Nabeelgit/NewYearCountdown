@@ -36,3 +36,46 @@ body {
     font-weight: bold;
     font-size: 3rem;
 }
+@media only screen and (max-width: 580px){
+    .container h1 {
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    .container h1 {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 435px){
+    .container h1 {
+        font-size: 3rem;
+    }
+    #time div {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+}
+@media only screen and (max-width: 350px){
+    .container h1 {
+        font-size: 2rem;
+    }
+    #time div {
+        margin: 0 0.3rem 0 0.3rem;
+    }
+    .next_year_indicator {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 300px){
+    .container h1 {
+        font-size: 2rem;
+    }
+    #time div {
+        margin: 0 0.2rem 0 0.2rem;
+    }
+    #time div .unit {
+        font-size: 0.8rem;
+    }
+    .next_year_indicator {
+        font-size: 1.5rem;
+    }
+}
