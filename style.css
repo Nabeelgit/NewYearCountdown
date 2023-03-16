@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 87vh;
+}
+.countdown {
+    padding: 1rem;
+    text-align: center;
+}
+.container h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+#time {
+    display: flex;
+}
+#time div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+}
+#time div .unit {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.next_year_indicator {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 3rem;
+}
